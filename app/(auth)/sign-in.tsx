@@ -1,4 +1,4 @@
-import { Link } from 'expo-router';
+import { Link, Redirect } from 'expo-router';
 import React from 'react';
 import { Text, View } from 'react-native';
 
@@ -7,6 +7,7 @@ const SignIn = () => {
     <View>
       <Text>Sign-In</Text>
       <Link href='/(auth)/sign-up'>Create Account</Link>
+      <Redirect href='/(tabs)' />
     </View>
   );
 };
