@@ -1,4 +1,4 @@
-import tabs from '@/constants/data';
+import { tabs } from '@/constants/data';
 import { colors, components } from '@/constants/theme';
 import clsx from 'clsx';
 import { Tabs } from 'expo-router';
